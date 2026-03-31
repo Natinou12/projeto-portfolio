@@ -4,4 +4,22 @@
     .skill-container {
         grid-template-columns: 1fr 1fr;
     }
+
+    #projeto-container .projeto {
+        flex-direction: row-reverse;
+
+        justify-content: space-between;
+    }
+
+    #projeto-container .info {
+        max-width: 80%;
+    }
+
+    #projeto-container .foto {
+        aspect-ratio: 1/1;
+
+        max-width: 20%;
+
+        max-height: 200px;
+    }
 }
